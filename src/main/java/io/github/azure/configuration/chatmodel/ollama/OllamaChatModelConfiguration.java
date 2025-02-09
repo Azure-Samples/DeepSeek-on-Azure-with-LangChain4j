@@ -14,7 +14,7 @@ public class OllamaChatModelConfiguration {
     ChatLanguageModel deepseekChatLanguageModel() {
         return OllamaChatModel.builder()
                 .baseUrl("http://localhost:11434/")
-                .modelName("deepseek-r1:14b")
+                .modelName("deepseek-r1:7b")
                 .logRequests(true)
                 .logResponses(true)
                 .build();
